@@ -31,7 +31,7 @@ create table `group`(
     group_name varchar(50),
     creator_id int,
     create_date date,
-       FOREIGN KEY (creator_id) REFERENCES `account`(account_id)
+	FOREIGN KEY (creator_id) REFERENCES `account`(account_id)
 );
 
 CREATE TABLE group_account (
