@@ -141,10 +141,8 @@ VALUES
 INSERT INTO type_question (type_name)
 VALUES
 ('Essay'),
-('Multiple-Choice'),
-('Essay'),
-('Multiple-Choice'),
-('Essay');
+('Multiple-Choice');
+
 
 INSERT INTO category_question (category_name)
 VALUES
