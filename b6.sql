@@ -23,7 +23,6 @@ delimiter $$
             group by g.group_id;
         end $$
 delimiter ;
-select * from group_account;
 call account_in_group()
 
 #Question 3: Tạo store để thống kê mỗi type question có bao nhiêu question được tạo trong tháng hiện tại
